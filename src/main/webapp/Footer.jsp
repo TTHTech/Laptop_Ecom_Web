@@ -10,18 +10,16 @@
     <div class="footer_header">
         <ul class="footer_header-ul">
             <li><h4>VỀ NHÓM</h4></li>
-            <li><a href="">NHÓM 5</a></li>
-            <li><a href="">Xây dựng website bán phụ kiện điện tử</a></li>
+            <li><a href="">One</a></li>
+            <li><a href="">Xây dựng website bán Laptop</a></li>
         </ul>
         <ul class="footer_header-ul">
-            <li><h4>CÁC THÀNH VIÊN</h4></li>
+            <li><h4>Người Thực Hiện</h4></li>
             <li><a class="footer_header-link" href="">Từ Thanh Hoài </a></li>
-            <li><a class="footer_header-link" href="">Hành Phúc Công</a></li>
 
         </ul>
         <ul class="footer_header-ul">
             <li><h4>MSSV</h4></li>
-            <li><a class="footer_header-link" href="">2132334344</a></li>
             <li><a class="footer_header-link" href="">2132334344</a></li>
 
         </ul>
@@ -29,7 +27,7 @@
             <li><h4>Liên Hệ Nhóm</h4></li>
             <li><span class="footer_header-span">Số điện thoại:  <a class="footer_header-link-1" href="">1800.6975</a>(8.00-21.00)</span></li>
             <li><span  class="footer_header-span">Chưa biết: <a style="margin-left: 12px;" class="footer_header-link-1" href="">1800.6173</a>(8:00-21:00)</span></li>
-            <li><span class="footer_header-span">Email: <a style="margin-left: 16px;" class="footer_header-link-1" href="">cskh@gearvn.com</a></span></li>
+            <li><span class="footer_header-span">Email: <a style="margin-left: 16px;" class="footer_header-link-1" href="">sos@gmail.com</a></span></li>
         </ul>
     </div>
     <div class="footer_banner">

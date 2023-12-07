@@ -39,19 +39,11 @@
                     </div>
                 </div>
                 <div class="slider-content-left-bottom">
-<<<<<<< HEAD
                     <li class="active">HP VICTUS</li>
                     <li>PC GAMING</li>
                     <li>SALE</li>
                     <li>NOEL</li>
                     <li>LAPTOP</li>
-=======
-                    <li class="active">ASUS RTX 4000</li>
-                    <li>PC GAMING</li>
-                    <li>SALE</li>
-                    <li>HALLOWEEN</li>
-                    <li>GAME</li>
->>>>>>> origin/main
                 </div>
                 <div class="slider-content-left-bottom-ad">
                     <li><a href=""><img src="https://file.hstatic.net/200000722513/file/pc_1_e3a0343f627c43e59ba6b8d2a7d63cbc.png" alt=""></a></li>
