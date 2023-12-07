@@ -37,7 +37,7 @@
       <li><a href=""><span class = "btn-content"><span class = "btn-top"></span></span>Hotline <br> 0944192393</a></li>
       <li ><a href="https://www.facebook.com/hoai.thanh.1813?locale=vi_VN" >Hỏi đáp</a></li>
       <li><a href="https://genk.vn/">24h <br> Công Nghệ</a></li>
-      <li><a href=""><button><i class="ti-user"></i>Đăng Nhập</button></a></li>
+      <li><a href="Login.jsp"><button><i class="ti-user"></i>Đăng Nhập</button></a></li>
       <div class="adress-form">
         <div class="adress-form-content">
           <h2>Chọn địa chỉ nhận hàng <span id = "adress-close">X Đóng</span></h2>
