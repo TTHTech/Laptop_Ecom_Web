@@ -10,7 +10,437 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c072433f-f0e4-4bfe-b0cd-61e02488111c" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change beforePath="$PROJECT_DIR$/target/WEB_PANVN-1.0-SNAPSHOT/Footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WEB_PANVN-1.0-SNAPSHOT/Footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/RELEASE-NOTES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/Uninstall.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/Tomcat9.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/Tomcat9w.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/bootstrap.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/catalina.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/ciphers.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/configtest.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/digest.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/makebase.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/service.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/setclasspath.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/shutdown.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/startup.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/tomcat-juli.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/tool-wrapper.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/bin/version.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/catalina.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/catalina.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/jaspic-providers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/jaspic-providers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/tomcat-users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/annotations-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/catalina-ant.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/catalina-ha.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/catalina-ssi.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/catalina-storeconfig.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/catalina-tribes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/catalina.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/ecj-4.20.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/el-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/jasper-el.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/jasper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/jaspic-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/jsp-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/servlet-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-coyote.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-dbcp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-cs.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-de.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-es.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-fr.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ja.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ko.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-pt-BR.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-ru.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-i18n-zh-CN.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-jdbc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-jni.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-util-scan.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-util.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/tomcat-websocket.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/lib/websocket-api.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/catalina.2023-09-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/commons-daemon.2023-09-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/host-manager.2023-09-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/localhost.2023-09-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/localhost_access_log.2023-09-22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/manager.2023-09-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/service-install.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/tomcat9-stderr.2023-09-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/logs/tomcat9-stdout.2023-09-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/temp/2023_10_24_14_54_30_19256/2023_10_24_14_54_30.jfr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/temp/2023_10_24_14_54_30_19256/2023_10_24_14_54_30.part" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/temp/2023_10_24_14_54_52_9756/2023_10_24_14_54_52.jfr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/temp/2023_10_24_14_54_52_9756/2023_10_24_14_54_52.part" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/tomcat.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/Demo_Html_Css_war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/Demo_Html_Css_war/META-INF/war-tracker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/Demo_Html_Css_war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/Demo_Html_Css_war/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/Demo_Html_Css_war/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/Demo_Html_Css_war/thanks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/RELEASE-NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/asf-logo-wide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/bg-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/bg-middle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/bg-nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/bg-upper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/tomcat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/ROOT/tomcat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/DatHang.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/DetailProduct.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/DoanhThuTheoThang.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/DoanhThuTheoThu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/EditProfile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/HoaDon.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/LeftAdmin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/META-INF/war-tracker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Menu.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/NhaPhanPhoi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/QuanLySanPham.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/QuanLyTaiKhoan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Shop.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Statistic.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/ThongTinDatHang.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Top10SanPhamBanChay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Top5KhachHang.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/Top5NhanVien.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/context/DBContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/AddAccountControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/AddAmountCartControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/AddCartControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/AddControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/AddReviewControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/AddSupplierControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/CategoryControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/CategoryShopControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/DeleteAccountControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/DeleteCartControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/DeleteControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/DeleteSupplierControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/DetailControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/DoanhThuTheoThangControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/DoanhThuTheoThuControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/EditControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/EditProfileControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/ForgotPasswordControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/HoaDonControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/HomeControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/LoadAmountCartControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/LoadControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/LoadMoreAdidasControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/LoadMoreControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/LoadMoreNikeControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/LogOutControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/LoginControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/ManagerAccountControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/ManagerCartControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/ManagerControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/ManagerSupplierControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/OrderControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchAjaxColorBlackControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchAjaxColorGrayControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchAjaxColorWhiteControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchAjaxColorYellowControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchAjaxPrice100To200ShopControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchAjaxPriceAbove200ShopControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchAjaxPriceMinToMaxShopControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchAjaxPriceUnder100ShopControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchByAjax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchByAjaxHoaDon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchByAjaxShop.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SearchControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/ShopControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SignUpControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/StatisticControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/SubAmountCartControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/Top10SanPhamControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/Top5KhachHangControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/Top5NhanVienControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/control/TotalMoneyCartControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/dao/DAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/Cart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/Email.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/EmailUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/Invoice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/Review.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/SoLuongDaBan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/Supplier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/classes/entity/TongChiTieuBanHang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/SparseBitSet-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/activation-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/activation-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/byte-buddy-1.10.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-beanutils-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-codec-1.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-codec-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-collections4-4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-compress-1.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-io-2.11.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-io-2.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/commons-math3-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/curvesapi-1.06.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/dom4j-2.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/hibernate-core-5.4.27.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/hibernate-entitymanager-5.4.27.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/hibernate-validator-7.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/hibernate-validator-annotation-processor-7.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/hibernate-validator-cdi-7.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jakarta.el-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jakarta.el-api-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jakarta.validation-api-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jandex-2.1.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/javassist-3.27.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/javax.mail-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/javax.mail-api-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jboss-logging-3.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/log4j-api-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/mssql-jdbc-8.4.1.jre14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/mssql-jdbc-9.4.1.jre11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-examples-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-excelant-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-javadoc-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-ooxml-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-ooxml-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-ooxml-full-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-ooxml-lite-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-ooxml-schemas-3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/poi-scratchpad-5.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/slf4j-api-1.7.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/xmlbeans-2.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/WEB-INF/lib/xmlbeans-5.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/css/detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/css/manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/css/mdb.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/css/mdb.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/css/mdb.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/forgot-password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/images/mdb-favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/js/manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/WebsiteBanGiay_war/js/mdb.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/BUILDING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/RELEASE-NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/RUNNING.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/WEB-INF/jsp/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/aio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/annotationapi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/api/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/build.xml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/deployment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/installation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/introduction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/processes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/docs/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/sample.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/src/mypackage/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/web/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/web/images/tomcat.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/sample/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/appdev/web.xml.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/apr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/architecture/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/architecture/overview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/architecture/requestProcess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/architecture/requestProcess/authentication-process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/architecture/requestProcess/request-process.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/architecture/startup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/architecture/startup/serverStartup.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/architecture/startup/serverStartup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/balancer-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/building.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/cdi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/cgi-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/changelog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/class-loader-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/cluster-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/ajp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/automatic-deployment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-channel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-deployer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-interceptor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-listener.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-membership.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-receiver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-sender.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster-valve.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cluster.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/context.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/cookie-processor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/credentialhandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/engine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/executor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/globalresources.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/host.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/http.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/http2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/jar-scan-filter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/jar-scanner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/jaspic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/listeners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/loader.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/realm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/resources.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/sessionidgenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/systemprops.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/config/valve.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/connectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/default-servlet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/deployer-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/developers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/elapi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/graal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/host-manager-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/html-host-manager-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/html-manager-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/asf-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/code.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/cors-flowchart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/design.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/docs-stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/docs.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/fix.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/fonts/OpenSans400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/fonts/OpenSans400italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/fonts/OpenSans600.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/fonts/OpenSans600italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/fonts/OpenSans700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/fonts/OpenSans700italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/fonts/fonts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/tomcat.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/tomcat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/update.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/images/void.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/introduction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/jasper-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/jaspicapi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/jdbc-pool.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/jndi-datasource-examples-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/jndi-resources-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/jspapi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/logging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/manager-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/maven-jars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/mbeans-descriptors-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/mbeans-descriptors.dtd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/monitoring.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/proxy-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/realm-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/rewrite.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/security-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/security-manager-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/servletapi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/setup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/ssi-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/ssl-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/tribes/developers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/tribes/faq.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/tribes/interceptors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/tribes/introduction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/tribes/membership.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/tribes/setup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/tribes/status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/tribes/transport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/virtual-hosting-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/web-socket-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/websocketapi/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/windows-auth-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/docs/windows-service-howto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/example1_war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/example1_war/META-INF/war-tracker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/example1_war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/example1_war/error_404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/example1_war/error_java.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/example1_war/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/example1_war/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/example1_war/thanks.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/java_mail_war/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/java_mail_war/META-INF/war-tracker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/java_mail_war/WEB-INF/lib/javax.mail-api-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/jsp/401.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/jsp/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/jsp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/jsp/connectorCerts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/jsp/connectorTrustedCerts.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/jsp/sessionDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/jsp/sessionsList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/css/manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/images/asf-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/images/tomcat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/status.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/so/Apache Software Foundation/Tomcat 9.0/webapps/manager/xform.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +448,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TTHTech"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="83c63bf4-fc30-4ef5-87d4-773ff5a1f672" />
+        <option name="url" value="https://github.com/TTHTech/Laptop_Ecom_Web.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -40,22 +485,28 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/ADMIN/OneDrive/Documents/GitHub/Laptop_Ecom_Web/so",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\OneDrive\Documents\GitHub\Laptop_Ecom_Web\so" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.80" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.80" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -161,7 +612,7 @@
       <workItem from="1701953011634" duration="11000" />
       <workItem from="1701953046553" duration="359000" />
       <workItem from="1701953832396" duration="487000" />
-      <workItem from="1701983441961" duration="907000" />
+      <workItem from="1701983441961" duration="1637000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp">
       <option name="closed" value="true" />
@@ -195,7 +646,39 @@
       <option name="project" value="LOCAL" />
       <updated>1701984327778</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1701984381900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701984381900</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1701984392126</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701984392126</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1701984446614</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701984446614</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1701984451829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701984451829</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
