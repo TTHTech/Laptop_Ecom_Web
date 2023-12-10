@@ -9,9 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c072433f-f0e4-4bfe-b0cd-61e02488111c" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+
+    <list default="true" id="c072433f-f0e4-4bfe-b0cd-61e02488111c" name="Changes" comment="add commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,11 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -68,25 +77,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+
+    "Application.DBContext.executor": "Run",
+    "Application.accountDAO.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 9.0.80.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "test",
+
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ADMIN/OneDrive/Documents/GitHub/Laptop_Ecom_Web/so",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\OneDrive\Documents\GitHub\Laptop_Ecom_Web\so" />
@@ -217,6 +223,18 @@
       <workItem from="1702057818150" duration="601000" />
       <workItem from="1702112170847" duration="480000" />
       <workItem from="1702112732153" duration="187000" />
+
+      <workItem from="1702136644063" duration="2623000" />
+      <workItem from="1702141805320" duration="9000" />
+      <workItem from="1702181446372" duration="3486000" />
+      <workItem from="1702187546751" duration="3321000" />
+      <workItem from="1702190889052" duration="2754000" />
+      <workItem from="1702195143924" duration="46000" />
+      <workItem from="1702195488750" duration="4734000" />
+      <workItem from="1702200332343" duration="2975000" />
+      <workItem from="1702215455598" duration="128000" />
+      <workItem from="1702215597501" duration="3805000" />
+
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp">
       <option name="closed" value="true" />
@@ -314,7 +332,51 @@
       <option name="project" value="LOCAL" />
       <updated>1702003934004</updated>
     </task>
+
+    <task id="LOCAL-00013" summary="ok">
+      <option name="closed" value="true" />
+      <created>1702183477525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702183477525</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ok">
+      <option name="closed" value="true" />
+      <created>1702183497675</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702183497675</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add commit">
+      <option name="closed" value="true" />
+      <created>1702201924588</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1702201924588</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add commit">
+      <option name="closed" value="true" />
+      <created>1702201941226</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702201941226</updated>
+    </task>
+    <task id="LOCAL-00017" summary="add commit">
+      <option name="closed" value="true" />
+      <created>1702215496604</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702215496604</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+
     <option name="localTasksCounter" value="13" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +397,29 @@
     <MESSAGE value="commit&#10;&#10;Web" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="ok" />
+    <MESSAGE value="add commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/Home.jsp</url>
+          <line>303</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/SignupControl.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/control/LogoutControl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

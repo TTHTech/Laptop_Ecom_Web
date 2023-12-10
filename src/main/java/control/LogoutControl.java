@@ -18,8 +18,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 
-@WebServlet(name = "LoginControl", urlPatterns = {"/login"})
-public class LoginControl extends HttpServlet {
+@WebServlet(name = "LogoutControl", urlPatterns = {"/logout"})
+public class LogoutControl extends HttpServlet{
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -33,20 +33,9 @@ public class LoginControl extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String email = request.getParameter("email");
-        String password = request.getParameter("password");
-        accountDAO dao = new accountDAO();
-        Account a = dao.login(email,password);
-        String user = dao.getUserNameByEmail(email);
-        if(a == null){
-            request.setAttribute("mes", "Wrong Email or Password");
-            request.getRequestDispatcher("Login.jsp").forward(request,response);
-
-        }else{
-            HttpSession session =request.getSession();
-            session.setAttribute("acc", a);
-            response.sendRedirect("home");
-        }
+        HttpSession session = request.getSession();
+        session.removeAttribute("acc");
+        response.sendRedirect("home");
     }
 
 
