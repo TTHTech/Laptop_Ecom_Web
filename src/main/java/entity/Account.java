@@ -16,9 +16,6 @@ public class Account {
     public Account(int Int, String string, String string1, String string2, int anInt1, int anInt2) {
     }
 
-    public Account(int accountID, String userName, String password, String role, int userID) {
-    }
-
     public int getAccountID() {
         return accountID;
     }

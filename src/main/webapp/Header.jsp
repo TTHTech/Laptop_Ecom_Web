@@ -6,7 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,12 +37,7 @@
       <li><a href=""><span class = "btn-content"><span class = "btn-top"></span></span>Hotline <br> 0944192393</a></li>
       <li ><a href="https://www.facebook.com/hoai.thanh.1813?locale=vi_VN" >Hỏi đáp</a></li>
       <li><a href="https://genk.vn/">24h <br> Công Nghệ</a></li>
-      <c:if test = "${sessionScope.acc != null}">
-        <li><a href="logout"><button><i class="ti-user"></i>Đăng Xuất</button></a></li>
-      </c:if>
-      <c:if test = "${sessionScope.acc == null}">
-        <li><a href="Login.jsp"><button><i class="ti-user"></i>Đăng Nhập</button></a></li>
-      </c:if>
+      <li><a href="Login.jsp"><button><i class="ti-user"></i>Đăng Nhập</button></a></li>
       <div class="adress-form">
         <div class="adress-form-content">
           <h2>Chọn địa chỉ nhận hàng <span id = "adress-close">X Đóng</span></h2>
@@ -68,5 +62,4 @@
       </div>
     </ul>
   </div>
-
 </nav>
