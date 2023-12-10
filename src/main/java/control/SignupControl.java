@@ -33,7 +33,6 @@ public class SignupControl extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        String userName = request.getParameter("userName");
         String email = request.getParameter("email");
         String password = request.getParameter("password");
         String repassword = request.getParameter("repassword");
@@ -43,7 +42,7 @@ public class SignupControl extends HttpServlet {
             accountDAO dao = new accountDAO();
             Account a = dao.checkAccountExist(email);
             if(a == null){
-                dao.signup(userName,email,password);
+                dao.signup(email,password);
                 response.sendRedirect("home");
             }else{
                 response.sendRedirect("Login.jsp");

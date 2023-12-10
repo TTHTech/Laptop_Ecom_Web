@@ -37,18 +37,14 @@ public class LoginControl extends HttpServlet {
         String password = request.getParameter("password");
         accountDAO dao = new accountDAO();
         Account a = dao.login(email,password);
-        String user = dao.getUserNameByEmail(email);
         if(a == null){
             request.setAttribute("mes", "Wrong Email or Password");
             request.getRequestDispatcher("Login.jsp").forward(request,response);
 
         }else{
-            HttpSession session =request.getSession();
-            session.setAttribute("acc", a);
             response.sendRedirect("home");
         }
     }
-
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
