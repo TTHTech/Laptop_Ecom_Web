@@ -169,15 +169,15 @@ nav ul li:nth-child(6) a {
 nav ul li:nth-child(7):hover a {
     color: var(--color-yellow);
 }
-/*nav ul li:nth-child(7)  i{*/
+/*nav ul li:nth-child(7) i{*/
+/*    margin-right: 10px;*/
+/*}*/
+nav ul li:nth-child(8):hover a{
+    color: var(--color-yellow);
+}
+/*nav ul li:nth-child(8) i{*/
 /*    margin-right:  6px;*/
 /*}*/
-/*nav ul li:nth-child(8):hover a {*/
-/*    color: var(--color-yellow);*/
-/*}*/
-nav ul li:nth-child(8)  i{
-    margin-right:  6px;
-}
 nav ul li:nth-child(9) button{
     height: 40px;
     padding: 0 12px;

@@ -37,7 +37,7 @@
       <li><a href=""><i class="ti-time"></i>Lịch sử <br> đơn hàng</a></li>
       <li><a href=""><span class = "btn-content"><span class = "btn-top"></span></span>Hotline <br> 0944192393</a></li>
       <li ><a href="https://www.facebook.com/hoai.thanh.1813?locale=vi_VN" ><i class="ti-clipboard"></i>Tra Cứu<br>Đơn Hàng</a></li>
-      <li><a href="https://genk.vn/"><i class="ti-id-badge"></i>Profile</a></li>
+      <li><a href="https://genk.vn/"><i class="ti-id-badge"></i>Thông<br>Tin User</a></li>
       <c:if test = "${sessionScope.acc != null}">
         <li><a href="logout"><button><i class="ti-user"></i>Đăng Xuất</button></a></li>
       </c:if>
