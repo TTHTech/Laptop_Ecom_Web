@@ -10,7 +10,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/src/main/java/control/UpdateProductToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_10_2023_10_00_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_10_2023_10_00_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_10_2023_9_59_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_10_2023_9_59_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2023_9_51_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_10_2023_9_51_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/context/DBContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/context/DBContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/AddProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/AddProductToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/SignupControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/SignupControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/itemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/itemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/userDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/userDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +60,16 @@
     &quot;assignee&quot;: &quot;TTHTech&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="83c63bf4-fc30-4ef5-87d4-773ff5a1f672" />
-        <option name="url" value="https://github.com/TTHTech/Laptop_Ecom_Web.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TTHTech/Laptop_Ecom_Web.git&quot;,
+    &quot;accountId&quot;: &quot;6032d582-817d-4849-ba2c-72a52998ba39&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -72,6 +92,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DBContext.executor": "Run",
     "Application.productDAO.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -79,12 +100,13 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/thanh/OneDrive/Documents/GitHub/Project_Web_PanVn",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -105,6 +127,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="a090074b-8c55-4e8a-a1bd-e5ea77027dce" />
+        <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -185,7 +208,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.21-corretto-11.0.21-3183f394aec4-d55de845" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -237,6 +261,69 @@
       <workItem from="1702287314391" duration="3052000" />
       <workItem from="1702353845229" duration="1648000" />
       <workItem from="1702358717555" duration="911000" />
+      <workItem from="1702396480242" duration="69000" />
+      <workItem from="1702402913260" duration="12000" />
+      <workItem from="1702444477202" duration="150000" />
+      <workItem from="1702444718890" duration="602000" />
+      <workItem from="1702566254682" duration="3000" />
+      <workItem from="1702851881964" duration="467000" />
+      <workItem from="1702956639292" duration="14000" />
+      <workItem from="1702957169349" duration="426000" />
+      <workItem from="1702957788651" duration="4028000" />
+      <workItem from="1703265464407" duration="1178000" />
+      <workItem from="1703266731265" duration="985000" />
+      <workItem from="1703313682564" duration="608000" />
+      <workItem from="1703338568355" duration="645000" />
+      <workItem from="1703388409221" duration="550000" />
+      <workItem from="1703398733012" duration="3027000" />
+      <workItem from="1703402049037" duration="23000" />
+      <workItem from="1703402133248" duration="84000" />
+      <workItem from="1703402671479" duration="899000" />
+      <workItem from="1703403929153" duration="47000" />
+      <workItem from="1703404541101" duration="2000" />
+      <workItem from="1703423674279" duration="604000" />
+      <workItem from="1703424931249" duration="7000" />
+      <workItem from="1703507322019" duration="620000" />
+      <workItem from="1703581729141" duration="207000" />
+      <workItem from="1703595350851" duration="8000" />
+      <workItem from="1703599774440" duration="236000" />
+      <workItem from="1703600042254" duration="1063000" />
+      <workItem from="1703601133070" duration="1838000" />
+      <workItem from="1703611050976" duration="36000" />
+      <workItem from="1703750371470" duration="4000" />
+      <workItem from="1704028977714" duration="2528000" />
+      <workItem from="1704043082541" duration="613000" />
+      <workItem from="1704220037046" duration="96000" />
+      <workItem from="1704228233828" duration="597000" />
+      <workItem from="1704641789649" duration="8000" />
+      <workItem from="1704732038482" duration="7000" />
+      <workItem from="1704947173938" duration="605000" />
+      <workItem from="1705038719884" duration="616000" />
+      <workItem from="1705040921826" duration="221000" />
+      <workItem from="1705184219497" duration="100000" />
+      <workItem from="1705210797320" duration="593000" />
+      <workItem from="1705221625626" duration="13000" />
+      <workItem from="1705223108871" duration="604000" />
+      <workItem from="1705287811207" duration="1221000" />
+      <workItem from="1705471643811" duration="67000" />
+      <workItem from="1712773786545" duration="1200000" />
+      <workItem from="1713227031305" duration="411000" />
+      <workItem from="1713227454021" duration="291000" />
+      <workItem from="1713234672627" duration="9000" />
+      <workItem from="1713249349378" duration="98000" />
+      <workItem from="1713249480481" duration="6000" />
+      <workItem from="1713250038590" duration="7000" />
+      <workItem from="1713250052942" duration="4000" />
+      <workItem from="1713853819829" duration="537000" />
+      <workItem from="1713854972443" duration="714000" />
+      <workItem from="1713938408603" duration="45000" />
+      <workItem from="1714342410914" duration="577000" />
+      <workItem from="1714355289177" duration="17000" />
+      <workItem from="1715472519583" duration="132000" />
+      <workItem from="1715623353106" duration="309000" />
+      <workItem from="1715702461785" duration="28000" />
+      <workItem from="1717273833665" duration="146000" />
+      <workItem from="1717344972743" duration="9332000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp">
       <option name="closed" value="true" />
@@ -430,7 +517,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702289670478</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1702396511318</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702396511318</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1702396520417</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702396520417</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,6 +558,42 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "lastFilter": {}
+}]]></component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -463,17 +602,11 @@
           <line>303</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/control/SignupControl.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/control/LogoutControl.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,7 +1,5 @@
 package entity;
 
-import java.sql.Date;
-
 public class Account {
     private int accountID;
     private String userName;
@@ -10,15 +8,26 @@ public class Account {
     private int userID;
     private int role;
 
-    public Account(int anInt, String string, String string1, String string2, Date date) {
+    // Hàm tạo đầy đủ các tham số
+    public Account(int accountID, String userName, String email, String password, int userID, int role) {
+        this.accountID = accountID;
+        this.userName = userName;
+        this.email = email;
+        this.password = password;
+        this.userID = userID;
+        this.role = role;
     }
 
-    public Account(int Int, String string, String string1, String string2, int anInt1, int anInt2) {
+    // Hàm tạo không có email (dùng trong trường hợp không cần email)
+    public Account(int accountID, String userName, String password, int role, int userID) {
+        this.accountID = accountID;
+        this.userName = userName;
+        this.password = password;
+        this.userID = userID;
+        this.role = role;
     }
 
-    public Account(int accountID, String userName, String password, String role, int userID) {
-    }
-
+    // Getters and Setters
     public int getAccountID() {
         return accountID;
     }

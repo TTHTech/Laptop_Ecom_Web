@@ -27,7 +27,7 @@ public class DBContext {
 
             String url = "jdbc:mysql://localhost:3306/web_panvn";
             String user = "root";
-            String password = "24012003";
+            String password = "123456";
             // Tải MySQL JDBC driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
