@@ -23,13 +23,13 @@ public class User {
 
     private  String password;
 
-    private  int role;
+    private  String role;
 
     // Constructors
     public User() {
     }
 
-    public User(int userID, String fullName, String email, String phone, String address, Date createdAt, Date updatedAt, String userName, String accountemail, String password, int role) {
+    public User(int userID, String fullName, String email, String phone, String address, Date createdAt, Date updatedAt, String userName, String accountemail, String password, String role) {
         this.userID = userID;
         this.fullName = fullName;
         this.email = email;
@@ -120,11 +120,11 @@ public class User {
         this.password = password;
     }
 
-    public int getRole() {
+    public String getRole() {
         return role;
     }
 
-    public void setRole(int role) {
+    public void setRole(String role) {
         this.role = role;
     }
 

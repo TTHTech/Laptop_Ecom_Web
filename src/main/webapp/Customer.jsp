@@ -31,7 +31,7 @@
         <div class="col-2 col-sm-1 col-md-1 col-lg-2 col-xl-2 table-cell float-none align-top d-none d-sm-none d-md-block d-lg-block d-xl-block" id="side-menu-temp"></div>
         <div class="col-2 col-sm-1 col-md-1 col-lg-2 col-xl-2 table-cell float-none align-top h-100 fixed-top d-none d-sm-none d-md-block d-lg-block d-xl-block" id="side-menu">
             <div class="top-menu d-none d-lg-block">
-                <span class="logo"><h2>Hello, Admin</h2></span>
+                <span class="logo"><h2>Hello, Blue</h2></span>
             </div>
             <ul>
                 <li class="link">

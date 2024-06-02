@@ -46,7 +46,7 @@ public class userDAO {
                         rs.getString(8),
                         rs.getString(9),
                         rs.getString(10),
-                        rs.getInt(11)));
+                        rs.getString(11)));
             }
         } catch (Exception e) {
         }

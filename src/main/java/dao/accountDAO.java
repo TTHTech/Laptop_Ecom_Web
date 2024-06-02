@@ -1,13 +1,21 @@
 package dao;
 import context.DBContext;
-import entity.*;
+import entity.Account;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.nio.charset.StandardCharsets;
 
 public class accountDAO {
     Connection conn = null;
     PreparedStatement ps = null;
     ResultSet rs = null;
+
     public Account checkAccountExist(String email) {
         String query = "SELECT Account.*, User.email " +
                 "FROM Account " +
@@ -23,17 +31,15 @@ public class accountDAO {
                 return new Account(
                         rs.getInt("accountID"),
                         rs.getString("userName"),
+                        rs.getString("email"),
                         rs.getString("password"),
-                        rs.getString("role"),
-                        rs.getInt("userID")
+                        rs.getInt("userID"),
+                        rs.getInt("role")
                 );
             }
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // Đóng kết nối và tài nguyên
-            // Đảm bảo rằng bạn đóng kết nối và các tài nguyên liên quan
-            // sau khi sử dụng chúng để tránh rò rỉ tài nguyên
             try {
                 if (rs != null) rs.close();
                 if (ps != null) ps.close();
@@ -61,17 +67,15 @@ public class accountDAO {
                 return new Account(
                         rs.getInt("accountID"),
                         rs.getString("userName"),
+                        rs.getString("email"),
                         rs.getString("password"),
-                        rs.getString("role"),
-                        rs.getInt("userID")
+                        rs.getInt("userID"),
+                        rs.getInt("role")
                 );
             }
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // Đóng kết nối và tài nguyên
-            // Đảm bảo rằng bạn đóng kết nối và các tài nguyên liên quan
-            // sau khi sử dụng chúng để tránh rò rỉ tài nguyên
             try {
                 if (rs != null) rs.close();
                 if (ps != null) ps.close();
@@ -84,8 +88,9 @@ public class accountDAO {
     }
 
     public Account signup(String userName, String email, String password) {
-        String userQuery = "INSERT INTO User (email, created_at) VALUES (?, ?)";
-        String accountQuery = "INSERT INTO Account (userName, password, userID) VALUES (?, ?, ?)";
+        String userQuery = "INSERT INTO User (fullName, email, created_at) VALUES (?, ?, ?)";
+        String accountQuery = "INSERT INTO Account (userName, email, password, userID, role) VALUES (?, ?, ?, ?, ?)";
+        String cartQuery = "INSERT INTO Cart (userID) VALUES (?)";
 
         try {
             conn = new DBContext().getConnection();
@@ -96,8 +101,10 @@ public class accountDAO {
 
             // Thực hiện chèn thông tin người dùng vào bảng User
             ps = conn.prepareStatement(userQuery, Statement.RETURN_GENERATED_KEYS);
-            ps.setString(1, email);
-            ps.setDate(2, createdAt); // Chèn ngày tạo vào bảng User
+            ps = conn.prepareStatement(accountQuery, Statement.RETURN_GENERATED_KEYS);
+            ps.setString(1, userName);
+            ps.setString(2, email);
+            ps.setDate(3, createdAt); // Chèn ngày tạo vào bảng User
             int rowsAffected = ps.executeUpdate();
 
             if (rowsAffected > 0) {
@@ -109,66 +116,56 @@ public class accountDAO {
                 }
                 generatedKeys.close();
 
+                // Mã hóa mật khẩu trước khi lưu
+                String encryptedPassword = hashPassword(password);
+
                 // Chèn thông tin tài khoản vào bảng Account với userID tương ứng
                 ps = conn.prepareStatement(accountQuery);
                 ps.setString(1, userName);
-                ps.setString(2, password);
-                ps.setInt(3, userID);
+                ps.setString(2, email);
+                ps.setString(3, encryptedPassword);
+                ps.setInt(4, userID);
+                ps.setInt(5, 0); // Giả sử mặc định vai trò là 0 (USER)
                 ps.executeUpdate();
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
 
+                // Tạo giỏ hàng cho người dùng
+                ps = conn.prepareStatement(cartQuery);
+                ps.setInt(1, userID);
+                ps.executeUpdate();
 
-    public String getUserNameByEmail(String email) {
-        String query = "SELECT userName FROM Account WHERE email = ?";
-        String userName = null;
-        try {
-            conn = new DBContext().getConnection();
-            ps = conn.prepareStatement(query);
-            ps.setString(1, email);
-            rs = ps.executeQuery();
-
-            if (rs.next()) {
-                userName = rs.getString("userName");
+                return new Account(
+                        -1, // Chưa có accountID ở thời điểm này
+                        userName,
+                        email,
+                        encryptedPassword,
+                        userID,
+                        0 // Giả sử vai trò mặc định là 0
+                );
             }
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
             try {
-                if (rs != null) {
-                    rs.close();
-                }
-                if (ps != null) {
-                    ps.close();
-                }
-                if (conn != null) {
-                    conn.close();
-                }
-            } catch (Exception e) {
+                if (ps != null) ps.close();
+                if (conn != null) conn.close();
+            } catch (SQLException e) {
                 e.printStackTrace();
             }
         }
-        return userName;
+        return null;
     }
-    public static void main(String[] args) {
-        // Khởi tạo một instance của accountDAO
-        accountDAO dao = new accountDAO();
 
-        // Test với một email cụ thể
-        String testEmail = "hoaidanghocbai@gmail.com";
-        String userName = dao.getUserNameByEmail(testEmail);
-
-        if (userName != null) {
-            System.out.println("User name for email " + testEmail + " is: " + userName);
-        } else {
-            System.out.println("No user found for email " + testEmail);
+    private String hashPassword(String password) {
+        try {
+            MessageDigest md = MessageDigest.getInstance("SHA-256");
+            byte[] hashInBytes = md.digest(password.getBytes(StandardCharsets.UTF_8));
+            StringBuilder sb = new StringBuilder();
+            for (byte b : hashInBytes) {
+                sb.append(String.format("%02x", b));
+            }
+            return sb.toString();
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
         }
-
-        // Thêm các test case khác nếu cần
     }
 }
-
