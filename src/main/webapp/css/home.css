@@ -1292,14 +1292,78 @@ h4{
 }
 /*==banner footer*/
 /*====logou-form*/
-#logout-form {
+/*login form*/
+.login-form{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333;
     display: none;
+    z-index: 999;
 }
-
-#logout-form a {
-    cursor: pointer;
+.login-form-btn{
+    width: 450px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 5px;
 }
-
-#logout-form a:hover #logout-form {
+.login-form-btn form{
+    padding: 12px 40px;
+}
+.login-form-btn h2{
+    font-size: 14px;
+    padding: 12px 0;
+    border-bottom: 3px solid #ddd;
+    position: relative;
+}
+.login-form-btn h2 span{
     display: block;
+    position: absolute;
+    height: 30px;
+    padding: 0 6px;
+    border: 1px solid #ddd;
+    right: 12px;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 30px;
+    color: #333;
+    border-radius: 5px;
+}
+.login-form-btn h2 span:hover{
+    color: red;
+}
+.login-form-btn form p{
+    font-size: 16px;
+}
+.login-form-btn form input,select{
+    height: 45px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 6px;
+    border-radius: 5px;
+}
+.login-form-btn form button{
+    margin-top: 20px;
+    height: 30px;
+    width: 80%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #F97E0E;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.login-form-btn form button:hover{
+    background-color: rgba(249, 126, 14, 0.6);
 }

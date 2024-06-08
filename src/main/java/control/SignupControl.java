@@ -27,14 +27,14 @@ public class SignupControl extends HttpServlet {
         if (userName == null || email == null || password == null || repassword == null ||
                 userName.isEmpty() || email.isEmpty() || password.isEmpty() || repassword.isEmpty()) {
             request.setAttribute("signupError", "All fields are required");
-            request.getRequestDispatcher("Login.jsp").forward(request, response);
+            request.getRequestDispatcher("Login1.jsp").forward(request, response);
             return;
         }
 
         // Kiểm tra mật khẩu có trùng khớp
         if (!password.equals(repassword)) {
             request.setAttribute("signupError", "Passwords do not match");
-            request.getRequestDispatcher("Login.jsp").forward(request, response);
+            request.getRequestDispatcher("Login1.jsp").forward(request, response);
             return;
         }
 
@@ -47,7 +47,7 @@ public class SignupControl extends HttpServlet {
             response.sendRedirect("login.jsp"); // Chuyển hướng về trang đăng nhập sau khi đăng ký thành công
         } else {
             request.setAttribute("signupError", "Email already exists");
-            request.getRequestDispatcher("Login.jsp").forward(request, response);
+            request.getRequestDispatcher("Login1.jsp").forward(request, response);
         }
     }
 
