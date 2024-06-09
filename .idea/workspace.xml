@@ -10,14 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Login.jsp">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Login1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/Register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/login1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/SignupControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/SignupControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Login1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +31,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -79,26 +82,27 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DBContext.executor": "Run",
-    "Application.productDAO.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 9.0.80.executor": "Run",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/thanh/OneDrive/Documents/GitHub/Project_Web_PanVn",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.general",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DBContext.executor&quot;: &quot;Run&quot;,
+    &quot;Application.productDAO.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.80.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/thanh/OneDrive/Documents/GitHub/Project_Web_PanVn&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ADMIN\OneDrive\Documents\GitHub\Laptop_Ecom_Web\so" />
@@ -319,6 +323,8 @@
       <workItem from="1717650752294" duration="993000" />
       <workItem from="1717744904257" duration="424000" />
       <workItem from="1717820471251" duration="16893000" />
+      <workItem from="1717859412887" duration="10733000" />
+      <workItem from="1717908752008" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp">
       <option name="closed" value="true" />
@@ -581,6 +587,8 @@
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
+    {},
+    {},
     {},
     {},
     {},
