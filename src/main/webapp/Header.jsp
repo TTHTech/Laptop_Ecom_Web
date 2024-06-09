@@ -199,54 +199,6 @@
         <button class="btn-secondary" id="register-btn">Đăng Ký</button>
       </div>
     </div>
-    <div class="form-container" id="login-form">
-      <h2>Đăng Nhập</h2>
-      <div class="form-group">
-        <label for="login-email">Email</label>
-        <input type="email" id="login-email" name="email">
-      </div>
-      <div class="form-group">
-        <label for="login-password">Mật khẩu</label>
-        <input type="password" id="login-password" name="password">
-      </div>
-      <div class="form-actions">
-        <button class="btn-primary">Đăng Nhập</button>
-        <button class="btn-secondary" id="back-btn-login">Quay lại</button>
-      </div>
-      <div class="or-text">hoặc đăng nhập bằng</div>
-      <div class="social-login">
-        <button class="btn-google"><i class="fab fa-google"></i>Google</button>
-        <button class="btn-facebook"><i class="fab fa-facebook-f"></i>Facebook</button>
-      </div>
-    </div>
-    <div class="form-container" id="register-form">
-      <h2>Đăng Ký</h2>
-      <div class="form-group">
-        <label for="register-username">Tên đăng nhập</label>
-        <input type="text" id="register-username" name="username">
-      </div>
-      <div class="form-group">
-        <label for="register-email">Email</label>
-        <input type="email" id="register-email" name="email">
-      </div>
-      <div class="form-group">
-        <label for="register-password">Mật khẩu</label>
-        <input type="password" id="register-password" name="password">
-      </div>
-      <div class="form-group">
-        <label for="register-confirm-password">Nhập lại mật khẩu</label>
-        <input type="password" id="register-confirm-password" name="confirm-password">
-      </div>
-      <div class="form-actions">
-        <button class="btn-primary">Đăng Ký</button>
-        <button class="btn-secondary" id="back-btn-register">Quay lại</button>
-      </div>
-      <div class="or-text">hoặc đăng ký bằng</div>
-      <div class="social-login">
-        <button class="btn-google"><i class="fab fa-google"></i>Google</button>
-        <button class="btn-facebook"><i class="fab fa-facebook-f"></i>Facebook</button>
-      </div>
-    </div>
   </div>
 </section>
 
@@ -255,44 +207,23 @@
           showBtn = document.querySelector(".show-modal"),
           modalBox = document.querySelector(".modal-box"),
           initialForm = document.getElementById("initial-form"),
-          loginForm = document.getElementById("login-form"),
-          registerForm = document.getElementById("register-form"),
           loginBtn = document.getElementById("login-btn"),
-          registerBtn = document.getElementById("register-btn"),
-          backBtnLogin = document.getElementById("back-btn-login"),
-          backBtnRegister = document.getElementById("back-btn-register");
+          registerBtn = document.getElementById("register-btn");
 
   showBtn.addEventListener("click", () => section.classList.add("active"));
 
   section.addEventListener("click", (event) => {
     if (!modalBox.contains(event.target)) {
       section.classList.remove("active");
-      initialForm.classList.add("active");
-      loginForm.classList.remove("active");
-      registerForm.classList.remove("active");
     }
   });
 
   loginBtn.addEventListener("click", () => {
-    initialForm.classList.remove("active");
-    loginForm.classList.add("active");
+    window.location.href = "Login.jsp";
   });
 
   registerBtn.addEventListener("click", () => {
-    initialForm.classList.remove("active");
-    registerForm.classList.add("active");
-  });
-
-  backBtnLogin.addEventListener("click", (event) => {
-    event.preventDefault();
-    loginForm.classList.remove("active");
-    initialForm.classList.add("active");
-  });
-
-  backBtnRegister.addEventListener("click", (event) => {
-    event.preventDefault();
-    registerForm.classList.remove("active");
-    initialForm.classList.add("active");
+    window.location.href = "Register.jsp";
   });
 </script>
 </body>

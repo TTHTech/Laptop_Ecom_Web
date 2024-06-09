@@ -1367,3 +1367,146 @@ h4{
 .login-form-btn form button:hover{
     background-color: rgba(249, 126, 14, 0.6);
 }
+/*modal for login*/
+/*.modal-section {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: rgba(0, 0, 0, 0.5);*/
+/*    display: none;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    z-index: 1000;*/
+/*}*/
+/*.modal-section.active {*/
+/*    display: flex;*/
+/*}*/
+/*.modal-button {*/
+/*    font-size: 18px;*/
+/*    font-weight: 400;*/
+/*    color: #fff;*/
+/*    padding: 14px 22px;*/
+/*    border: none;*/
+/*    background: #4070f4;*/
+/*    border-radius: 6px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.modal-button:hover {*/
+/*    background-color: #265df2;*/
+/*}*/
+/*.modal-box {*/
+/*    background: #fff;*/
+/*    padding: 20px;*/
+/*    border-radius: 8px;*/
+/*    max-width: 500px;*/
+/*    width: 100%;*/
+/*    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);*/
+/*    text-align: center; !* Center align text and image *!*/
+/*}*/
+/*.modal-box h2 {*/
+/*    margin-top: 0;*/
+/*    font-size: 24px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+/*.modal-box img {*/
+/*    margin-bottom: 20px;*/
+/*    width: 100px; !* Adjust width as needed *!*/
+/*}*/
+/*.modal-box .form-group {*/
+/*    margin-bottom: 15px;*/
+/*    text-align: left; !* Align labels to the left *!*/
+/*}*/
+/*.modal-box .form-group label {*/
+/*    display: block;*/
+/*    margin-bottom: 5px;*/
+/*}*/
+/*.modal-box .form-group input {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*}*/
+/*.modal-box .form-actions {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    gap: 10px; !* Khoảng cách giữa các nút *!*/
+/*}*/
+/*.modal-box .form-actions button {*/
+/*    flex: 1; !* Chiều rộng của các nút bằng nhau *!*/
+/*    padding: 10px 0;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.modal-box .form-actions .btn-primary {*/
+/*    background: #4070f4;*/
+/*    color: #fff;*/
+/*}*/
+/*.modal-box .form-actions .btn-primary:hover {*/
+/*    background: #265df2;*/
+/*}*/
+/*.modal-box .form-actions .btn-secondary {*/
+/*    background: #ccc;*/
+/*    color: #000;*/
+/*}*/
+/*.modal-box .form-actions .btn-secondary:hover {*/
+/*    background: #aaa;*/
+/*}*/
+/*.modal-box .social-login {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    margin-top: 15px;*/
+/*}*/
+/*.modal-box .social-login button {*/
+/*    flex: 1;*/
+/*    padding: 10px 0;*/
+/*    border: none;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*    font-size: 16px;*/
+/*    color: #fff;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    gap: 10px;*/
+/*}*/
+/*.modal-box .social-login .btn-google {*/
+/*    background: #db4437;*/
+/*}*/
+/*.modal-box .social-login .btn-google:hover {*/
+/*    background: #c33d2e;*/
+/*}*/
+/*.modal-box .social-login .btn-facebook {*/
+/*    background: #4267b2;*/
+/*}*/
+/*.modal-box .social-login .btn-facebook:hover {*/
+/*    background: #375899;*/
+/*}*/
+/*.modal-box .or-text {*/
+/*    margin: 10px 0;*/
+/*    font-size: 14px;*/
+/*    color: #888;*/
+/*    position: relative;*/
+/*}*/
+/*.modal-box .or-text:before, .modal-box .or-text:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    width: 40%;*/
+/*    height: 1px;*/
+/*    background: #ccc;*/
+/*}*/
+/*.modal-box .or-text:before {*/
+/*    left: 0;*/
+/*}*/
+/*.modal-box .or-text:after {*/
+/*    right: 0;*/
+/*}*/
+/*.form-container {*/
+/*    display: none;*/
+/*}*/
+/*.form-container.active {*/
+/*    display: block;*/
+/*}*/

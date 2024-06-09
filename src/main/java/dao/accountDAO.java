@@ -16,6 +16,7 @@ public class accountDAO {
     PreparedStatement ps = null;
     ResultSet rs = null;
 
+    // Kiểm tra tài khoản đã tồn tại hay chưa
     public Account checkAccountExist(String email) {
         String query = "SELECT Account.*, User.email " +
                 "FROM Account " +
@@ -51,6 +52,7 @@ public class accountDAO {
         return null;
     }
 
+    // Đăng nhập
     public Account login(String email, String password) {
         String query = "SELECT Account.*, User.email " +
                 "FROM Account " +
@@ -87,6 +89,7 @@ public class accountDAO {
         return null;
     }
 
+    // Đăng ký tài khoản mới
     public Account signup(String userName, String email, String password) {
         String userQuery = "INSERT INTO User (fullName, email, created_at) VALUES (?, ?, ?)";
         String accountQuery = "INSERT INTO Account (userName, email, password, userID, role) VALUES (?, ?, ?, ?, ?)";
@@ -101,7 +104,6 @@ public class accountDAO {
 
             // Thực hiện chèn thông tin người dùng vào bảng User
             ps = conn.prepareStatement(userQuery, Statement.RETURN_GENERATED_KEYS);
-            ps = conn.prepareStatement(accountQuery, Statement.RETURN_GENERATED_KEYS);
             ps.setString(1, userName);
             ps.setString(2, email);
             ps.setDate(3, createdAt); // Chèn ngày tạo vào bảng User
@@ -155,6 +157,7 @@ public class accountDAO {
         return null;
     }
 
+    // Mã hóa mật khẩu
     private String hashPassword(String password) {
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-256");
