@@ -1,4 +1,3 @@
-<!-- Register.jsp -->
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,6 +37,7 @@
         .modal-box .form-group {
             margin-bottom: 15px;
             text-align: left;
+            position: relative;
         }
         .modal-box .form-group label {
             display: block;
@@ -50,12 +50,18 @@
             border-radius: 4px;
             box-sizing: border-box;
         }
+        .modal-box .form-group .toggle-password {
+            position: absolute;
+            right: 15px;
+            top: 35px;
+            cursor: pointer;
+        }
         .modal-box .form-actions {
             margin-top: 15px;
         }
         .modal-box .form-actions button {
             width: 100%;
-            padding: 10px 0;
+            padding: 15px 0;
             border: none;
             border-radius: 4px;
             cursor: pointer;
@@ -63,10 +69,10 @@
             color: #fff;
         }
         .modal-box .form-actions .btn-primary {
-            background: #4070f4;
+            background: #ff0000; /* Red color for the register button */
         }
         .modal-box .form-actions .btn-primary:hover {
-            background: #265df2;
+            background: #d00000;
         }
         .modal-box .social-login {
             display: flex;
@@ -75,7 +81,7 @@
         }
         .modal-box .social-login button {
             flex: 1;
-            padding: 10px 0;
+            padding: 12px 0; /* Increase the size of the buttons */
             border: none;
             border-radius: 4px;
             cursor: pointer;
@@ -85,6 +91,7 @@
             align-items: center;
             justify-content: center;
             gap: 10px;
+            margin: 0 5px; /* Add spacing between the buttons */
         }
         .modal-box .social-login .btn-google {
             background: #db4437;
@@ -118,6 +125,17 @@
         .modal-box .or-text:after {
             right: 0;
         }
+        .modal-box .extra-links {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .modal-box .extra-links a {
+            color: #4070f4;
+            text-decoration: none;
+        }
+        .modal-box .extra-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -136,10 +154,12 @@
             <div class="form-group">
                 <label for="register-password">Mật khẩu</label>
                 <input type="password" id="register-password" name="password" required>
+                <i class="fas fa-eye toggle-password" onclick="togglePasswordVisibility('register-password')"></i>
             </div>
             <div class="form-group">
                 <label for="register-confirm-password">Nhập lại mật khẩu</label>
                 <input type="password" id="register-confirm-password" name="repassword" required>
+                <i class="fas fa-eye toggle-password" onclick="togglePasswordVisibility('register-confirm-password')"></i>
             </div>
             <div class="form-actions">
                 <button type="submit" class="btn-primary">Đăng Ký</button>
@@ -153,15 +173,26 @@
             <button class="btn-google"><i class="fab fa-google"></i>Google</button>
             <button class="btn-facebook"><i class="fab fa-facebook-f"></i>Facebook</button>
         </div>
+        <div class="extra-links">
+            Bạn đã có tài khoản? <a href="Login.jsp">Đăng nhập!</a>
+        </div>
     </div>
 </section>
 <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
 <script>
-    document.querySelector(".modal-section").addEventListener("click", (event) => {
-        if (event.target.classList.contains("modal-section")) {
-            document.querySelector(".modal-section").classList.remove("active");
+    function togglePasswordVisibility(id) {
+        const passwordField = document.getElementById(id);
+        const passwordToggle = passwordField.nextElementSibling;
+        if (passwordField.type === 'password') {
+            passwordField.type = 'text';
+            passwordToggle.classList.remove('fa-eye');
+            passwordToggle.classList.add('fa-eye-slash');
+        } else {
+            passwordField.type = 'password';
+            passwordToggle.classList.remove('fa-eye-slash');
+            passwordToggle.classList.add('fa-eye');
         }
-    });
+    }
 </script>
 </body>
 </html>
