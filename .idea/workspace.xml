@@ -9,14 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="fix UI Login and Register and add ForgotPassword form">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/accountDetails.jsp" afterDir="false" />
+    <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="fix UI profile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/AddProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/AddProductToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/CartControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/CartControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/DeleteProductInCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/DeleteProductInCart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/Home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/itemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/itemDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/accountDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/accountDetails.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,6 +322,8 @@
       <workItem from="1717820471251" duration="16893000" />
       <workItem from="1717859412887" duration="10733000" />
       <workItem from="1717908752008" duration="12045000" />
+      <workItem from="1717921715716" duration="963000" />
+      <workItem from="1717943667754" duration="2558000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp">
       <option name="closed" value="true" />
@@ -578,7 +581,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717912195940</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="fix UI profile">
+      <option name="closed" value="true" />
+      <created>1717921760644</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1717921760644</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,10 +616,13 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Login.jsp" />
     <MESSAGE value="register" />
     <MESSAGE value="fix UI Login and Register and add ForgotPassword form" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix UI Login and Register and add ForgotPassword form" />
+    <MESSAGE value="fix UI profile" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix UI profile" />
   </component>
-  <component name="WfRunsListSearchHistory">{
-  &quot;history&quot;: [
+  <component name="WfRunsListSearchHistory"><![CDATA[{
+  "history": [
+    {},
+    {},
     {},
     {},
     {},
@@ -648,8 +662,8 @@
     {},
     {}
   ],
-  &quot;lastFilter&quot;: {}
-}</component>
+  "lastFilter": {}
+}]]></component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />

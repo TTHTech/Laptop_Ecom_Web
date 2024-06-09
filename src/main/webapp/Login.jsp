@@ -143,6 +143,10 @@
         .modal-box .extra-links a:hover {
             text-decoration: underline;
         }
+        .error-message {
+            color: red;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
@@ -150,6 +154,10 @@
     <div class="modal-box">
         <h2>Đăng Nhập</h2>
         <form action="login" method="post"> <!-- Added form tag -->
+            <% String loginError = (String) request.getAttribute("loginError"); %>
+            <% if (loginError != null) { %>
+            <div class="error-message"><%= loginError %></div>
+            <% } %>
             <div class="form-group">
                 <label for="login-email">Email</label>
                 <input type="email" id="login-email" name="email" required>

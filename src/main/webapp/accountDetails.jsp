@@ -31,9 +31,12 @@
     .account-sidebar ul {
       list-style-type: none;
       padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px; /* Cách đều các phần tử 10px */
     }
     .account-sidebar ul li {
-      margin: 10px 0;
+      margin: 0; /* Xóa margin */
     }
     .account-sidebar ul li a {
       text-decoration: none;

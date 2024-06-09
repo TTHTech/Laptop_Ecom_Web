@@ -27,7 +27,7 @@ public class LoginControl extends HttpServlet {
 
         // Kiểm tra đầu vào rỗng
         if (email == null || password == null || email.isEmpty() || password.isEmpty()) {
-            request.setAttribute("loginError", "Email and password are required");
+            request.setAttribute("loginError", "Email và mật khẩu là bắt buộc");
             request.getRequestDispatcher("Login.jsp").forward(request, response);
             return;
         }
@@ -36,14 +36,15 @@ public class LoginControl extends HttpServlet {
         String encryptedPassword = hashPassword(password);
 
         accountDAO dao = new accountDAO();
-        Account a = dao.login(email, encryptedPassword); // Corrected this line
+        Account a = dao.login(email, encryptedPassword);
 
         if (a == null) {
-            request.setAttribute("loginError", "Wrong Email or Password");
+            request.setAttribute("loginError", "Email hoặc mật khẩu không đúng");
             request.getRequestDispatcher("Login.jsp").forward(request, response);
         } else {
             HttpSession session = request.getSession();
             session.setAttribute("acc", a);
+            session.setAttribute("userID", a.getUserID()); // Giả sử userID là thuộc tính của đối tượng Account
             response.sendRedirect("home");
         }
     }
@@ -79,3 +80,4 @@ public class LoginControl extends HttpServlet {
         return "Short description";
     }
 }
+
