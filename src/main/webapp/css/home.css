@@ -1510,3 +1510,11 @@ h4{
 /*.form-container.active {*/
 /*    display: block;*/
 /*}*/
+
+.user-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100px; /* Điều chỉnh giá trị này để phù hợp với thiết kế của bạn */
+    display: inline-block;
+}

@@ -17,7 +17,6 @@
                             <ul>
                                 <c:forEach var="o" items="${listB}">
                                     <li><a href="brand?brandID=${o.brandID}"><i class="ti-github"></i>${o.brandName}<i class="ti-angle-right"></i></a></li>
-
                                 </c:forEach>
                             </ul>
                         </div>
@@ -54,9 +53,8 @@
                 <li><a href=""><img src="https://file.hstatic.net/200000722513/file/pc_2_6a106e41d2854f86a0661367fd3a2c1b.png" alt=""></a></li>
                 <li><a href=""><img src="https://file.hstatic.net/200000722513/file/laptop_gaming_0b68eaa4a81b4dc9a7153d23d941c125.png" alt=""></a></li>
                 <li><a href=""><img src="https://file.hstatic.net/200000722513/file/laptop_van_phong_01332439ea334ec99715cb7f91973bfe.png" alt=""></a></li>
-                <!-- <li><a href=""><img src="image/img4.jpg" alt=""></a></li> -->
             </div>
-            <div class="slider-content-ad-right" >
+            <div class="slider-content-ad-right">
                 <li><a href=""><img src="https://file.hstatic.net/200000722513/file/banner_sticky_-_b1400ceae_bv3186w_52b7a4750b8d4cd99ee990c07792d852.png" alt=""></a></li>
             </div>
         </div>
@@ -79,8 +77,8 @@
             </div>
             <div class="slider-product-one-content-container">
                 <div class="slider-product-one-content-items-content">
-                    <div class="slider-product-one-content-items" >
-                        <c:forEach items="${five}" var="o" >
+                    <div class="slider-product-one-content-items">
+                        <c:forEach items="${five}" var="o">
                             <div class="slider-product-one-content-item" onclick="location.href='detail?pid=${o.productID}';" style="cursor: pointer;">
                                 <img src="${o.url1}" alt="" class="product-image">
                                 <div class="slider-product-one-content-item-text">
@@ -100,10 +98,9 @@
                                 </div>
                             </div>
                         </c:forEach>
-
                     </div>
-                    <div class="slider-product-one-content-items" >
-                        <c:forEach items="${one}" var="n" >
+                    <div class="slider-product-one-content-items">
+                        <c:forEach items="${one}" var="n">
                             <div class="slider-product-one-content-item" onclick="location.href='detail?pid=${n.productID}';" style="cursor: pointer;">
                                 <img src="${n.url1}" alt="" class="product-image">
                                 <div class="slider-product-one-content-item-text">
@@ -123,10 +120,9 @@
                                 </div>
                             </div>
                         </c:forEach>
-
                     </div>
-                    <div class="slider-product-one-content-items" >
-                        <c:forEach items="${two}" var="t" >
+                    <div class="slider-product-one-content-items">
+                        <c:forEach items="${two}" var="t">
                             <div class="slider-product-one-content-item" onclick="location.href='detail?pid=${t.productID}';" style="cursor: pointer;">
                                 <img src="${t.url1}" alt="" class="product-image">
                                 <div class="slider-product-one-content-item-text">
@@ -146,7 +142,6 @@
                                 </div>
                             </div>
                         </c:forEach>
-
                     </div>
                 </div>
                 <div class="slider-product-one-content-btn">
@@ -188,7 +183,6 @@
                                     <i class="ti-github"></i>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </c:forEach>
@@ -227,7 +221,6 @@
                             <li>Ưu đãi khủng</li>
                         </div>
                     </div>
-
                     <div class="product-gallery-two-content-left-bottom-item">
                         <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTQrPife2rk4muceJmSbwrZ3InpjZRMM-d2ejwUxUIpTLugB0dwmzsgk6wi9j2M3xLH1-XghoN6_ybhfMBts0rGGkGAWUAh_--u__mXHJTJdB5Icct9jsxFBQ&usqp=CAE" alt="">
                         <div class="product-gallery-two-content-left-bottom-item-text">
@@ -237,7 +230,6 @@
                             <li>Ưu đãi khủng</li>
                         </div>
                     </div>
-
                     <div class="product-gallery-two-content-left-bottom-item">
                         <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTQrPife2rk4muceJmSbwrZ3InpjZRMM-d2ejwUxUIpTLugB0dwmzsgk6wi9j2M3xLH1-XghoN6_ybhfMBts0rGGkGAWUAh_--u__mXHJTJdB5Icct9jsxFBQ&usqp=CAE" alt="">
                         <div class="product-gallery-two-content-left-bottom-item-text">
@@ -247,8 +239,6 @@
                             <li>Ưu đãi khủng</li>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -285,7 +275,6 @@
                                     <i class="ti-github"></i>
                                 </li>
                             </ul>
-
                         </div>
                     </div>
                 </c:forEach>
@@ -293,12 +282,90 @@
         </div>
     </div>
 </section>
-
-
-<!-- =============================footer============================================ -->
 <jsp:include page="Footer.jsp"></jsp:include>
-</div>
-<script src ="javascript/index.js">
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const adressbtn = document.querySelector('#adress-form')
+        const adresscl = document.querySelector('#adress-close')
+
+        if (adressbtn && adresscl) {
+            adressbtn.addEventListener("click", function(){
+                document.querySelector('.adress-form').style.display = "flex";
+            })
+
+            adresscl.addEventListener("click", function(){
+                document.querySelector('.adress-form').style.display = "none";
+            })
+        }
+
+        // slider==================================================
+        const rightbtn = document.querySelector('.ti-angle-right')
+        const leftbtn = document.querySelector('.ti-angle-left')
+        const imgNumber = document.querySelectorAll('.slider-content-left-top img')
+        let index = 0
+
+        if (rightbtn && leftbtn && imgNumber.length > 0) {
+            rightbtn.addEventListener("click", function(){
+                index = (index + 1) % imgNumber.length;
+                document.querySelector(".slider-content-left-top").style.right = index * 100 + "%";
+            })
+
+            leftbtn.addEventListener("click", function(){
+                index = (index - 1 + imgNumber.length) % imgNumber.length;
+                document.querySelector(".slider-content-left-top").style.right = index * 100 + "%";
+            })
+
+            //slider1------------------------------------------------
+            const imgNumberLi = document.querySelectorAll('.slider-content-left-bottom li')
+            imgNumberLi.forEach(function(image, index){
+                image.addEventListener("click", function(){
+                    removeactive()
+                    document.querySelector(".slider-content-left-top").style.right = index * 100 + "%";
+                    image.classList.add("active")
+                })
+            })
+
+            function removeactive(){
+                let imgactive = document.querySelector('.active')
+                if (imgactive) {
+                    imgactive.classList.remove("active")
+                }
+            }
+
+            // slider2======================
+            function imgAuto(){
+                index = (index + 1) % imgNumber.length;
+                removeactive()
+                document.querySelector(".slider-content-left-top").style.right = index * 100 + "%";
+                imgNumberLi[index].classList.add("active")
+            }
+            setInterval(imgAuto, 3000)
+        }
+
+        // =====================slider product=====================
+        const rightbtntwo = document.querySelector('.ti-angle-right-two')
+        const leftbtntwo = document.querySelector('.ti-angle-left-two')
+        const imgNumbertwo = document.querySelectorAll('.slider-product-one-content-items')
+
+        if (rightbtntwo && leftbtntwo && imgNumbertwo.length > 0) {
+            rightbtntwo.addEventListener("click", function(){
+                index = (index + 1) % imgNumbertwo.length;
+                document.querySelector(".slider-product-one-content-items-content").style.right = index * 100 + "%";
+            })
+
+            leftbtntwo.addEventListener("click", function(){
+                index = (index - 1 + imgNumbertwo.length) % imgNumbertwo.length;
+                document.querySelector(".slider-product-one-content-items-content").style.right = index * 100 + "%";
+            })
+
+            function imgAutoTwo(){
+                index = (index + 1) % imgNumbertwo.length;
+                document.querySelector(".slider-product-one-content-items-content").style.right = index * 100 + "%";
+            }
+            setInterval(imgAutoTwo, 3000)
+        }
+    })
 </script>
 </body>
 </html>

@@ -28,7 +28,7 @@ public class LoginControl extends HttpServlet {
         // Kiểm tra đầu vào rỗng
         if (email == null || password == null || email.isEmpty() || password.isEmpty()) {
             request.setAttribute("loginError", "Email and password are required");
-            request.getRequestDispatcher("Login1.jsp").forward(request, response);
+            request.getRequestDispatcher("Login.jsp").forward(request, response);
             return;
         }
 
@@ -40,7 +40,7 @@ public class LoginControl extends HttpServlet {
 
         if (a == null) {
             request.setAttribute("loginError", "Wrong Email or Password");
-            request.getRequestDispatcher("Login1.jsp").forward(request, response);
+            request.getRequestDispatcher("Login.jsp").forward(request, response);
         } else {
             HttpSession session = request.getSession();
             session.setAttribute("acc", a);

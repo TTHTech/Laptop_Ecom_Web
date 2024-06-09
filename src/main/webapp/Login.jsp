@@ -149,21 +149,23 @@
 <section class="modal-section active">
     <div class="modal-box">
         <h2>Đăng Nhập</h2>
-        <div class="form-group">
-            <label for="login-email">Email</label>
-            <input type="email" id="login-email" name="email">
-        </div>
-        <div class="form-group">
-            <label for="login-password">Mật khẩu</label>
-            <input type="password" id="login-password" name="password">
-            <i class="fas fa-eye toggle-password" onclick="togglePasswordVisibility()"></i>
-            <div class="forgot-password">
-                <a href="ForgotPassword.jsp">Quên mật khẩu?</a>
+        <form action="login" method="post"> <!-- Added form tag -->
+            <div class="form-group">
+                <label for="login-email">Email</label>
+                <input type="email" id="login-email" name="email" required>
             </div>
-        </div>
-        <div class="form-actions">
-            <button class="btn-primary">Đăng Nhập</button>
-        </div>
+            <div class="form-group">
+                <label for="login-password">Mật khẩu</label>
+                <input type="password" id="login-password" name="password" required>
+                <i class="fas fa-eye toggle-password" onclick="togglePasswordVisibility()"></i>
+                <div class="forgot-password">
+                    <a href="ForgotPassword.jsp">Quên mật khẩu?</a>
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="btn-primary">Đăng Nhập</button>
+            </div>
+        </form>
         <div class="or-text">hoặc đăng nhập bằng</div>
         <div class="social-login">
             <button class="btn-google"><i class="fab fa-google"></i>Google</button>
