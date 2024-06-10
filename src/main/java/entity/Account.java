@@ -8,7 +8,6 @@ public class Account {
     private int userID;
     private int role;
 
-    // Hàm tạo đầy đủ các tham số
     public Account(int accountID, String userName, String email, String password, int userID, int role) {
         this.accountID = accountID;
         this.userName = userName;
@@ -18,16 +17,7 @@ public class Account {
         this.role = role;
     }
 
-    // Hàm tạo không có email (dùng trong trường hợp không cần email)
-    public Account(int accountID, String userName, String password, int role, int userID) {
-        this.accountID = accountID;
-        this.userName = userName;
-        this.password = password;
-        this.userID = userID;
-        this.role = role;
-    }
-
-    // Getters and Setters
+    // Getters và Setters
     public int getAccountID() {
         return accountID;
     }

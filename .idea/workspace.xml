@@ -9,7 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="add product to cart" />
+    <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="add product to cart">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/AdminControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/AdminControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/HomeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/HomeControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/SignupControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/SignupControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -314,7 +323,8 @@
       <workItem from="1717859412887" duration="10733000" />
       <workItem from="1717908752008" duration="12045000" />
       <workItem from="1717921715716" duration="963000" />
-      <workItem from="1717943667754" duration="2960000" />
+      <workItem from="1717943667754" duration="3233000" />
+      <workItem from="1718028178696" duration="6574000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp">
       <option name="closed" value="true" />
@@ -588,7 +598,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717946608760</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add product to cart">
+      <option name="closed" value="true" />
+      <created>1717946810934</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1717946810934</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,6 +639,7 @@
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [
+    {},
     {},
     {},
     {},

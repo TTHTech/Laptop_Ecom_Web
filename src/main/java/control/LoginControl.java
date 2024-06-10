@@ -45,7 +45,13 @@ public class LoginControl extends HttpServlet {
             HttpSession session = request.getSession();
             session.setAttribute("acc", a);
             session.setAttribute("userID", a.getUserID()); // Giả sử userID là thuộc tính của đối tượng Account
-            response.sendRedirect("home");
+
+            // Kiểm tra vai trò của người dùng
+            if (a.getRole() == 1) {
+                response.sendRedirect("admin");
+            } else {
+                response.sendRedirect("home");
+            }
         }
     }
 
@@ -80,4 +86,3 @@ public class LoginControl extends HttpServlet {
         return "Short description";
     }
 }
-

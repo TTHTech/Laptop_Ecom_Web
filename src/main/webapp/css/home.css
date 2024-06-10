@@ -724,6 +724,9 @@ nav ul li:nth-child(9) button:hover{
 .slider-product-one-content-item-text li:nth-child(4) {
     font-weight: bold;
 }
+.product-title {
+    font-weight: bold;
+}
 /* ===================================================slider product================================ */
 .slider-product-one-content-container{
     position: relative;

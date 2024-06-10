@@ -35,7 +35,7 @@ public class accountDAO {
                         rs.getString("email"),
                         rs.getString("password"),
                         rs.getInt("userID"),
-                        rs.getInt("role")
+                        rs.getInt("role") // Sử dụng getInt cho role
                 );
             }
         } catch (Exception e) {
@@ -72,7 +72,7 @@ public class accountDAO {
                         rs.getString("email"),
                         rs.getString("password"),
                         rs.getInt("userID"),
-                        rs.getInt("role")
+                        rs.getInt("role") // Sử dụng getInt cho role
                 );
             }
         } catch (Exception e) {
@@ -90,7 +90,7 @@ public class accountDAO {
     }
 
     // Đăng ký tài khoản mới
-    public Account signup(String userName, String email, String password) {
+    public Account signup(String userName, String email, String password, int role) {
         String userQuery = "INSERT INTO User (fullName, email, created_at) VALUES (?, ?, ?)";
         String accountQuery = "INSERT INTO Account (userName, email, password, userID, role) VALUES (?, ?, ?, ?, ?)";
         String cartQuery = "INSERT INTO Cart (userID) VALUES (?)";
@@ -127,7 +127,7 @@ public class accountDAO {
                 ps.setString(2, email);
                 ps.setString(3, encryptedPassword);
                 ps.setInt(4, userID);
-                ps.setInt(5, 0); // Giả sử mặc định vai trò là 0 (USER)
+                ps.setInt(5, role); // Thiết lập vai trò từ tham số đầu vào
                 ps.executeUpdate();
 
                 // Tạo giỏ hàng cho người dùng
@@ -141,7 +141,7 @@ public class accountDAO {
                         email,
                         encryptedPassword,
                         userID,
-                        0 // Giả sử vai trò mặc định là 0
+                        role
                 );
             }
         } catch (Exception e) {

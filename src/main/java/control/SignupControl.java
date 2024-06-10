@@ -49,7 +49,9 @@ public class SignupControl extends HttpServlet {
         // Kiểm tra email đã tồn tại chưa
         if (existingAccount == null) {
             System.out.println("Creating new account");
-            dao.signup(userName, email, password);
+            // Giả sử vai trò mặc định là customer (0)
+            int role = 0;
+            dao.signup(userName, email, password, role);
             response.sendRedirect("Login.jsp"); // Chuyển hướng về trang đăng nhập sau khi đăng ký thành công
         } else {
             System.out.println("Email already exists");
