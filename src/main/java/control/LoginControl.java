@@ -32,6 +32,24 @@ public class LoginControl extends HttpServlet {
             return;
         }
 
+        // Kiểm tra tài khoản admin cụ thể
+        if (email.equals("admin@gmail.com") && password.equals("123")) {
+            HttpSession session = request.getSession();
+            // Sử dụng constructor của lớp Account với thông tin cụ thể
+            Account adminAccount = new Account(
+                    1, // Giả sử accountID là 1 cho admin
+                    "admin", // userName cho admin
+                    email,
+                    hashPassword(password),
+                    1, // Giả sử userID là 1 cho admin
+                    1 // role cho admin
+            );
+            session.setAttribute("acc", adminAccount);
+            session.setAttribute("userID", adminAccount.getUserID());
+            response.sendRedirect("admin");
+            return;
+        }
+
         // Mã hóa mật khẩu
         String encryptedPassword = hashPassword(password);
 

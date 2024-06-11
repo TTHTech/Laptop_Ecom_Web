@@ -9,15 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="add product to cart">
+    <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="phan quyen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/AdminControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/AdminControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/HomeControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/HomeControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/AddProductToCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/AddProductToCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/CartControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/CartControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/LoginControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/control/SignupControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/SignupControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/accountDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/LogoutControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/LogoutControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +322,7 @@
       <workItem from="1717908752008" duration="12045000" />
       <workItem from="1717921715716" duration="963000" />
       <workItem from="1717943667754" duration="3233000" />
-      <workItem from="1718028178696" duration="6574000" />
+      <workItem from="1718028178696" duration="9564000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp">
       <option name="closed" value="true" />
@@ -606,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717946810934</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="phan quyen">
+      <option name="closed" value="true" />
+      <created>1718035500478</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1718035500479</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +641,8 @@
     <MESSAGE value="fix UI Login and Register and add ForgotPassword form" />
     <MESSAGE value="fix UI profile" />
     <MESSAGE value="add product to cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="add product to cart" />
+    <MESSAGE value="phan quyen" />
+    <option name="LAST_COMMIT_MESSAGE" value="phan quyen" />
   </component>
   <component name="WfRunsListSearchHistory"><![CDATA[{
   "history": [

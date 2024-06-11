@@ -19,8 +19,13 @@ public class AddProductToCart extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
 
-        HttpSession session = request.getSession();
-        int userID = (int) session.getAttribute("userID"); // Giả sử userID được lưu trong session
+        HttpSession session = request.getSession(false); // Get the session if it exists
+        if (session == null || session.getAttribute("userID") == null) {
+            response.sendRedirect("login.jsp"); // Redirect to login page if not logged in
+            return;
+        }
+
+        int userID = (int) session.getAttribute("userID"); // Get userID from session
         String productID = request.getParameter("add");
         String quantity = request.getParameter("quantity");
 
@@ -28,8 +33,8 @@ public class AddProductToCart extends HttpServlet {
         boolean itemFound = false;
 
         itemDAO dao = new itemDAO();
-        Cart cart = dao.getCartByUserID(userID); // Lấy giỏ hàng của người dùng
-        List<Item> listItem = cart.getItems(); // Lấy danh sách các sản phẩm trong giỏ hàng
+        Cart cart = dao.getCartByUserID(userID); // Get user's cart
+        List<Item> listItem = cart.getItems(); // Get list of items in the cart
 
         for (Item item : listItem) {
             if (productID.equals(String.valueOf(item.getProductID()))) {

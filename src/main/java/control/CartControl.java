@@ -23,14 +23,19 @@ public class CartControl extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
 
-        HttpSession session = request.getSession();
-        int userID = (int) session.getAttribute("userID"); // Giả sử userID được lưu trong session khi đăng nhập
+        HttpSession session = request.getSession(false); // Get the session if it exists
+        if (session == null || session.getAttribute("userID") == null) {
+            response.sendRedirect("login.jsp"); // Redirect to login page if not logged in
+            return;
+        }
+
+        int userID = (int) session.getAttribute("userID"); // Get userID from session
 
         itemDAO dao = new itemDAO();
         productDAO daopro = new productDAO();
 
         int totalPrice = 0;
-        Cart cart = dao.getCartByUserID(userID); // Sử dụng userID để lấy giỏ hàng của người dùng
+        Cart cart = dao.getCartByUserID(userID); // Get user's cart
         List<Item> listItem = cart.getItems();
         List<Product> listproduct = new ArrayList<>();
         List<ItemOnCart> listItemOnCart = new ArrayList<>();
