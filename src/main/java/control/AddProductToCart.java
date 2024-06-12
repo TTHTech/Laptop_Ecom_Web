@@ -21,7 +21,7 @@ public class AddProductToCart extends HttpServlet {
 
         HttpSession session = request.getSession(false); // Get the session if it exists
         if (session == null || session.getAttribute("userID") == null) {
-            response.sendRedirect("login.jsp"); // Redirect to login page if not logged in
+            response.sendRedirect("Login.jsp"); // Redirect to login page if not logged in
             return;
         }
 
