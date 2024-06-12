@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
+// con nay hoi kho
 @WebServlet(name = "AddProductToCart", urlPatterns = {"/addproductstocart"})
 public class AddProductToCart extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -21,7 +21,7 @@ public class AddProductToCart extends HttpServlet {
 
         HttpSession session = request.getSession(false); // Get the session if it exists
         if (session == null || session.getAttribute("userID") == null) {
-            response.sendRedirect("login.jsp"); // Redirect to login page if not logged in
+            response.sendRedirect("Login.jsp"); // Redirect to login page if not logged in
             return;
         }
 
