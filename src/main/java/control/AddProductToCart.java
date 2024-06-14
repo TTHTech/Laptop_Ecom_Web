@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-// con nay hoi kho
+// con nay hoi kho // chua muon lam tiep
 @WebServlet(name = "AddProductToCart", urlPatterns = {"/addproductstocart"})
 public class AddProductToCart extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
