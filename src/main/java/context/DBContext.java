@@ -3,7 +3,7 @@ package context;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-
+//Test database
 public class DBContext {
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class DBContext {
     public static Connection getConnection() {
         try {
 
-            String url = "jdbc:mysql://localhost:3306/web_panvn";
+            String url = "jdbc:mysql://localhost:3306/TUTORIALSPOINT";
             String user = "root";
             String password = "123456";
             // Tải MySQL JDBC driver
