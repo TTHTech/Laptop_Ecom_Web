@@ -25,7 +25,7 @@ public class DBContext {
     public static Connection getConnection() {
         try {
 
-            String url = "jdbc:mysql://localhost:3306/TUTORIALSPOINT";
+            String url = "jdbc:mysql://localhost:3306/web_panvn";
             String user = "root";
             String password = "123456";
             // Tải MySQL JDBC driver
