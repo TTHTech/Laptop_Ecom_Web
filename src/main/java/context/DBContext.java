@@ -3,7 +3,7 @@ package context;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-//Test database okok buon qua khong muon code
+//Test database okok buon qua khong muon code chan qua thu 2 code
 public class DBContext {
 
     public static void main(String[] args) {
