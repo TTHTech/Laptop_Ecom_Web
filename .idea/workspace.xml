@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <list default="true" id="145c5866-4e2e-4ee1-bdeb-cb354de522c4" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +82,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/thanh/OneDrive/Documents/GitHub/Project_Web_PanVn&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/thanh/Downloads/shopapp-backend-30&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -246,6 +248,35 @@
       <workItem from="1718982171097" duration="187000" />
       <workItem from="1719070680288" duration="168000" />
       <workItem from="1719070857254" duration="3000" />
+      <workItem from="1719147829797" duration="461000" />
+      <workItem from="1719243291240" duration="817000" />
+      <workItem from="1719385353812" duration="625000" />
+      <workItem from="1719537942635" duration="805000" />
+      <workItem from="1719539137687" duration="13000" />
+      <workItem from="1719542142745" duration="261000" />
+      <workItem from="1719545312861" duration="1777000" />
+      <workItem from="1719884662630" duration="369000" />
+      <workItem from="1719903364834" duration="1281000" />
+      <workItem from="1720487991715" duration="470000" />
+      <workItem from="1720490261783" duration="8000" />
+      <workItem from="1720495672535" duration="529000" />
+      <workItem from="1720552252808" duration="1249000" />
+      <workItem from="1720890895212" duration="42000" />
+      <workItem from="1720890967001" duration="74000" />
+      <workItem from="1721197040552" duration="1636000" />
+      <workItem from="1721334624477" duration="636000" />
+      <workItem from="1722228778436" duration="1887000" />
+      <workItem from="1722230747205" duration="93000" />
+      <workItem from="1722231737221" duration="98000" />
+      <workItem from="1722600001414" duration="1085000" />
+      <workItem from="1723137189621" duration="381000" />
+      <workItem from="1723137609440" duration="1651000" />
+      <workItem from="1723188268004" duration="682000" />
+      <workItem from="1724183272670" duration="620000" />
+      <workItem from="1724395769420" duration="2087000" />
+      <workItem from="1724860327170" duration="608000" />
+      <workItem from="1725276932259" duration="662000" />
+      <workItem from="1728370240715" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/main/webapp/Home.jsp&#10;#&#9;target/WEB_PANVN-1.0-SNAPSHOT/Home.jsp">
       <option name="closed" value="true" />
@@ -615,7 +646,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719070753328</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1719147882973</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1719147882973</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1719243323560</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1719243323560</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,6 +700,15 @@
   </component>
   <component name="WfRunsListSearchHistory">{
   &quot;history&quot;: [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
     {},
     {},
     {},
